@@ -16,14 +16,14 @@ int main() {
     struct Carta carta1, carta2;
 
     // Cadastro da Carta 1
-    printf("Cadastro da Carta 1:\n");
+    printf("\nCadastro da Carta 1:\n");
 
     printf("Estado (A-H): ");
     scanf(" %c", &carta1.estado); // Espaço em branco importante
     getchar(); // Limpa o buffer do teclado
 
     printf("Código (ex: A01):");
-    scanf(" %s", carta1.codigo); // Espaço em branco importante
+    scanf(" %s", carta1.codigo ); // Espaço em branco importante
     getchar(); // Limpa o buffer do teclado
 
     printf("Nome da Cidade: ");
